@@ -26,7 +26,7 @@ Demo logins: `admin@pawhaven.com / Admin@123` (admin) and `demo@pawhaven.com / D
 | Area | Endpoints |
 |---|---|
 | Auth | POST /api/auth/register, POST /api/auth/login, GET/PUT /api/auth/me |
-| Pets | GET /api/pets?q&category&gender&size&ageGroup&status&sort, GET /api/pets/stats, GET /api/pets/:id, POST/PUT/DELETE (admin) |
+| CYBERSECURITY | GET /api/security?q&category&gender&size&ageGroup&status&sort, GET /api/pets/stats, GET /api/pets/:id, POST/PUT/DELETE (admin) |
 | Adoptions | POST /api/adoptions, GET /api/adoptions/mine, GET /api/adoptions (admin), PUT /api/adoptions/:id/status (admin), DELETE /api/adoptions/:id |
 | Reviews | GET/POST /api/reviews/pet/:petId, DELETE /api/reviews/:id |
 | Users (admin) | GET /api/users, PUT /api/users/:id/role, DELETE /api/users/:id |
