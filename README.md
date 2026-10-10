@@ -1,4 +1,4 @@
-# PawHaven - MERN Pet Adoption Platform
+# CYBERSECURITY AWARENESS PLATFORM
 
 React (Vite) + Node/Express + MongoDB (Mongoose) + JWT auth.
 
