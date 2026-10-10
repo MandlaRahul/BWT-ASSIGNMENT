@@ -33,7 +33,5 @@ Demo logins: `admin@pawhaven.com / Admin@123` (admin) and `demo@pawhaven.com / D
 | Contact | POST /api/contact, GET/DELETE (admin) |
 
 ## Notes
-- Double-booking is prevented by an atomic `findOneAndUpdate({status:'Available'} -> 'Reserved')`; only one simultaneous request can win.
-- Pet photos in the seed data use loremflickr.com keyword images (internet needed). Replace the `image` field with your own URLs in the admin dashboard for exact photos. A friendly emoji placeholder shows if an image fails.
-- Health tab separates "Verified medical record" (shelter vet) from "General care advice".
-- Set `VITE_API_URL` in the client if the API is hosted on another domain.
+The Cybersecurity Awareness Platform is a MERN stack-based web application designed to improve users' knowledge of online security. It provides cybersecurity learning materials, interactive quizzes, password safety tips, phishing awareness, and multi-factor authentication guidance. Users can compare technology platforms, view ratings and reviews, and track their learning progress. The application uses MongoDB for data storage, Express.js and Node.js for backend APIs, and React.js for an interactive, responsive user interface. It aims to promote safe online practices and protect users from cyber threats.
+
